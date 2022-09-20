@@ -1,0 +1,17 @@
+.footer{
+    padding:1em;
+    text-align: center;
+    background-color: rgb(242, 242, 242);;
+}
+
+.atributtion{
+    font-size:120%;
+
+    &__author{
+        color:rgb(95, 83, 83);
+    }
+
+    &__src{
+        color: rgb(109, 165, 183);   
+    }
+}

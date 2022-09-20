@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,WAAW,EAAC,KAAK;CACpB;;AAED,AAAA,iBAAiB,CAAA;EACd,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAC,KAAK;EACT,IAAI,EAAC,KAAK;EACV,KAAK,EAAC,IAAI;EACV,UAAU,EAAE,KAAK;CACnB",
+    "sources": [
+        "CardBack.scss"
+    ],
+    "names": [],
+    "file": "CardBack.css"
+}

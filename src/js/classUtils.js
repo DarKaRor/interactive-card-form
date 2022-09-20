@@ -1,0 +1,2 @@
+// This function takes an object which keys only represent boolean values and returns a string with the keys whose values are true.
+export const getClasses = (classes) => Object.keys(classes).filter(key => classes[key]).join(" ")

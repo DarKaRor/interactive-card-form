@@ -1,0 +1,49 @@
+.cardFront {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  margin-bottom: 30px;
+  z-index: 10;
+}
+
+.cardFront__icon {
+  width: 100%;
+  max-width: 85px;
+}
+
+.cardFront__number {
+  padding-bottom: 25px;
+  font-size: 25px;
+  letter-spacing: .2em;
+}
+
+.cardFront__name, .cardFront__mini {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: lighter;
+  letter-spacing: 0.15em;
+  font-size: 14px;
+}
+
+.cardFront__name {
+  text-transform: uppercase;
+}
+
+.cardFront__mini {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 850px) {
+  .cardFront {
+    margin-top: -110px;
+  }
+}
+/*# sourceMappingURL=CardFront.css.map */

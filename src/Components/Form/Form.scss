@@ -1,0 +1,31 @@
+@import "../../styles/_variables.scss";
+
+.form{
+    width:100%;
+    max-width:382px;
+    display:flex;
+    flex-direction: column;
+    gap:22px;
+    
+
+    &__submit{
+        width:100%;
+        display:block;
+        border:none;
+        color:white;
+        background-color:$very_dark_violet;
+        padding:16px;
+        border-radius:8px;
+        font-size:17px;
+        letter-spacing:.05em;
+        font-family: 'Space Grotesk', sans-serif;
+        cursor:pointer;
+        transition: background-color 0.2s;
+        margin-top:20px;
+
+        &:hover{
+            background-color:$very_dark_violet * 2;
+            
+        }
+    }
+}

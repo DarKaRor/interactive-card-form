@@ -1,0 +1,53 @@
+@import "../../styles/_variables.scss";
+
+.form{
+
+    &__group{
+        display:flex;
+        flex-direction: column;
+        gap:9px;
+    }
+
+    &__label{
+        text-transform: uppercase;
+        font-size:12px;
+        letter-spacing: .165em;
+        color:$very_dark_violet;
+        font-weight: bold;
+    }
+
+    &__input{
+        width:100%;
+        padding:10px;
+        border:1px solid $light_grayish_violet;
+        border-radius:10px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size:20px;
+        color:$very_dark_violet;
+
+        &::placeholder{
+            color: $light_grayish_violet;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size:18px;
+            word-spacing: .05em;
+        }
+
+        &:focus{
+            outline:none;
+            border-color:$very_dark_violet;
+        }
+
+        &--error{
+            border-color:red;
+
+            &:focus{
+                border-color:rgb(147, 0, 0);
+            }
+        }
+    }
+
+    &__error{
+        color:red;
+        font-size:12px;
+    }
+}

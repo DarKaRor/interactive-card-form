@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card_container {
+  background-image: url("../../images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-flex: 33.6%;
+      -ms-flex: 33.6%;
+          flex: 33.6%;
+  color: white;
+  position: relative;
+}
+
+.form_container {
+  -webkit-box-flex: 66.4%;
+      -ms-flex: 66.4%;
+          flex: 66.4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 80px;
+  padding-top: 80px;
+}
+
+.completed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 380px;
+}
+
+.completed__icon {
+  margin-bottom: 20px;
+}
+
+.completed__title {
+  color: #21092f;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.completed__desc {
+  color: #8e8593;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card_container {
+    -webkit-box-flex: 40%;
+        -ms-flex: 40%;
+            flex: 40%;
+  }
+  .form_container {
+    -webkit-box-flex: 60%;
+        -ms-flex: 60%;
+            flex: 60%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .App {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .card_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .form_container {
+    padding: 10px;
+    padding-top: 30px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

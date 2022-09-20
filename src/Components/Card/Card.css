@@ -1,0 +1,90 @@
+.cardBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  right: -30%;
+  top: 25%;
+}
+
+.card {
+  width: 447px;
+  height: 245px;
+  position: relative;
+}
+
+.card__container {
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.card__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .cardBox {
+    -webkit-transform: scale(80%) translate(10%);
+            transform: scale(80%) translate(10%);
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .cardBox {
+    position: initial;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: -150px;
+    -webkit-transform: scale(80%) translate(0%);
+            transform: scale(80%) translate(0%);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .cardBox {
+    -webkit-transform: scale(60%);
+            transform: scale(60%);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .cardBox {
+    -webkit-transform: scale(50%);
+            transform: scale(50%);
+  }
+}
+/*# sourceMappingURL=Card.css.map */

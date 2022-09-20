@@ -1,0 +1,94 @@
+@import "../../styles/_variables.scss";
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.App{
+    min-height:100vh;
+    display:flex;
+}
+
+$card-flex: 33.6%;
+
+.card_container{
+    background-image: url('../../images/bg-main-desktop.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    flex:$card-flex;
+    color:white;
+    position:relative;
+}
+
+.form_container{
+    flex:100% - $card-flex;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    $offset: 80px;
+    padding-left:$offset;
+    padding-top:$offset;
+}
+
+.completed{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    max-width:380px;
+
+    &__icon{
+        margin-bottom:20px;
+    }
+
+    &__title{
+        color:$very_dark_violet;
+        letter-spacing: 0.1em;
+        font-weight:lighter;
+        font-size:28px;
+        margin-bottom:15px;
+    }
+
+    &__desc{
+        color:$dark_grayish_violet;
+        margin-bottom:40px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    $card-flex: 40%;
+
+    .card_container{
+        flex:$card-flex;
+    }
+
+    .form_container{
+        flex:100% - $card-flex;
+    }
+}
+
+@media only screen and (max-width:$major_bp){
+    .App{
+        flex-direction: column;
+    }
+
+    .card_container{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .form_container{
+        padding:10px;
+        padding-top:30px;
+
+    }
+}

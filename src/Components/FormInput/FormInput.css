@@ -1,0 +1,75 @@
+.form__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 9px;
+}
+
+.form__label {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: .165em;
+  color: #21092f;
+  font-weight: bold;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dedddf;
+  border-radius: 10px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  color: #21092f;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #dedddf;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  word-spacing: .05em;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #dedddf;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  word-spacing: .05em;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #dedddf;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  word-spacing: .05em;
+}
+
+.form__input::placeholder {
+  color: #dedddf;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+  word-spacing: .05em;
+}
+
+.form__input:focus {
+  outline: none;
+  border-color: #21092f;
+}
+
+.form__input--error {
+  border-color: red;
+}
+
+.form__input--error:focus {
+  border-color: #930000;
+}
+
+.form__error {
+  color: red;
+  font-size: 12px;
+}
+/*# sourceMappingURL=FormInput.css.map */

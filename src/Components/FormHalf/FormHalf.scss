@@ -1,0 +1,19 @@
+.form{
+
+    $p: ".form";
+
+    &__half{
+        display:flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap:10px;
+
+        #{$p}__group{
+            flex:50%;
+        }
+
+        &--big{
+            gap:20px;
+        }
+    }
+}

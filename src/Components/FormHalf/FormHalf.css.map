@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIK,AAAD,WAAO,CAAA;EACH,OAAO,EAAC,IAAI;EACZ,WAAW,EAAE,UAAU;EACvB,eAAe,EAAE,UAAU;EAC3B,GAAG,EAAC,IAAI;CASX;;AAbA,AAMG,WANG,CAMH,YAAY,CAAA;EACR,IAAI,EAAC,GAAG;CACX;;AAEA,AAAD,gBAAM,CAAA;EACF,GAAG,EAAC,IAAI;CACX",
+    "sources": [
+        "FormHalf.scss"
+    ],
+    "names": [],
+    "file": "FormHalf.css"
+}
